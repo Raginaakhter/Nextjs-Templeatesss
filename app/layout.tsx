@@ -32,3 +32,90 @@ export default function RootLayout({
     </html>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// "use client";
+// import { useEffect, useState } from "react";
+
+// export default function GetData() {
+//   const [posts, setPosts] = useState([]);
+
+//   useEffect(() => {
+//     fetch("/api/posts")
+//       .then(res => res.json())
+//       .then(data => setPosts(data));
+//   }, []);
+
+//   return (
+//     <div>
+//       <h2>All Posts</h2>
+//       {posts.map(post => (
+//         <p key={post.id}>{post.title}</p>
+//       ))}
+//     </div>
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+// "use client";
+// import { useState } from "react";
+
+// export default function PostData() {
+//   const [title, setTitle] = useState("");
+
+//   const handleSubmit = async () => {
+//     const res = await fetch("/api/posts", {
+//       method: "POST",
+//       headers: {
+//         "Content-Type": "application/json",
+//       },
+//       body: JSON.stringify({
+//         title,
+//         body: "Real API Body",
+//       }),
+//     });
+
+//     const data = await res.json();
+//     console.log("POST RESPONSE:", data);
+//     alert("Post Created Successfully");
+//     setTitle("");
+//   };
+
+//   return (
+//     <div>
+//       <input
+//         placeholder="Enter title"
+//         value={title}
+//         onChange={(e) => setTitle(e.target.value)}
+//       />
+//       <button onClick={handleSubmit}>Submit</button>
+//     </div>
+//   );
+// }
