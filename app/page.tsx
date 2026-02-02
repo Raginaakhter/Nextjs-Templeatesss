@@ -4,7 +4,11 @@ import React from 'react';
 const page = () => {
   return (
     <div>
-      this is home pagessssirojjjjj Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, architecto nemo voluptas, modi exercitationem dolorem sint doloribus cumque dolor eos distinctio. Autem nisi explicabo, accusamus velit impedit facilis earum odit?
+      this is home pagessssirojjjjj Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, architecto nemo voluptas, modi exercitationem dolorem sint doloribus cumque dolor eos distinctio. Autem nisi explicabo, accusamus velit
+      
+      
+      
+       impedit facilis earum odit?
     </div>
   );
 };
