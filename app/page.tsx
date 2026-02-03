@@ -8,7 +8,7 @@ const page = () => {
       
       
       
-       impedit facilis earum odit? what i do ... whenccccccccccccc
+       impedit facilis earum od 
     </div>
   );
 };
