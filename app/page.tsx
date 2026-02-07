@@ -1,12 +1,10 @@
 
-import React from 'react';
-
 const page = () => {
   return (
     <div>
       this is home pagessssirojjjjj Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, architecto nemo voluptas, modi exercitationem dolorem sint doloribus cumque dolor eos distinctio. Autem nisi explicabo, accusamus velit
       
-      
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dignissimos aliquam similique, maxime animi quae deserunt optio, excepturi minus facilis molestias reiciendis labore cum aliquid odio dolores sit magni sed.
       
        impedit facilis earum od 
     </div>
